@@ -1,0 +1,13 @@
+.Link-base {
+  color: #61dafb;
+  text-decoration: underline;
+  font-size: inherit;
+}
+
+.Link-base:hover {
+  cursor: pointer;
+}
+
+.Link-disabled {
+  cursor: auto;
+}

@@ -1,0 +1,17 @@
+.event_block__wrapper {
+  line-height: 25px;
+  margin-top: 60px;
+  margin-bottom: 65px;
+  width:100%;
+}
+
+.event_block__wrapper:first-of-type {
+  margin-left: 0;
+}
+
+.event_block__title {
+  font-size: 24px;
+  font-weight: 300;
+  color: #6d6d6d;
+  padding-bottom: 20px;
+}
