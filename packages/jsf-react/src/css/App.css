@@ -1,0 +1,123 @@
+
+.App-header {
+  background-color: #20232a;
+  color: white;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.App-header-container {
+  max-width: 1220px;
+  width: 90%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-header-wrapper {
+  height: 60px;
+  display: flex;
+  box-orient: horizontal;
+  box-direction: normal;
+  flex-direction: row;
+  box-align: center;
+  align-items: center;
+}
+
+.App-header-nav {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  box-align: stretch;
+  flex-direction: row;
+  box-orient: horizontal;
+  box-direction: normal;
+}
+
+.App-header-title {
+  height: 100%;
+  width: calc(100% / 7);
+  margin-right: 10px;
+  display: flex;
+  box-align: center;
+  align-items: center;
+  font-size: 22px;
+  color: #61dafb;
+  font-weight: 500;
+}
+
+.App-header-nav-link {
+  display: flex;
+  box-align: center;
+  align-items: center;
+  box-orient: horizontal;
+  box-direction: normal;
+  flex-direction: row;
+  font-size: 18px;
+  padding: 0 20px;
+  color: white;
+  transition: color 0.2s ease-out;
+  text-decoration: none;
+  font-weight: 300;
+  height: 100%;
+}
+
+.App-header-nav-link:hover {
+  color: #61dafb;
+}
+
+.App-body {
+  margin-top: 60px;
+  max-width: 1220px;
+  width: 90%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex
+}
+
+.App-body-section {
+  line-height: 25px;
+  margin-top: 60px;
+  margin-bottom: 65px;
+  display: flex;
+  box-orient: horizontal;
+  box-direction: normal;
+  flex-direction: row;
+  width:100%;
+}
+
+.App-body-section-container {
+  display: flex;
+  box-orient: horizontal;
+  box-direction: normal;
+  flex-direction: row;
+  width:100%
+}
+
+.App-body-section-content {
+  display: flex;
+  margin-left: 40px;
+  box-orient: vertical;
+  box-direction: normal;
+  flex-direction: column;
+  flex: 0 1 33%;
+}
+
+.App-body-section-content:first-of-type {
+  margin-left: 0;
+}
+
+.App-hr {
+  height: 1px;
+  margin-bottom: -1px;
+  border: none;
+  border-bottom: 1px solid #ececec;
+  margin-top: 40px;
+}
